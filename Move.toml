@@ -1,0 +1,15 @@
+[package]
+name = "students-club"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StudentClubs = "0xa08e513214315f7f6ed47eb805a098ddb93a6eefb7b15562477d893858bf6266"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
